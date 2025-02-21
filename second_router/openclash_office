@@ -5,7 +5,7 @@ config config_subscribe
 	option sub_ua 'clash.meta'
 	option sub_convert '1'
 	option template '0'
-	option custom_template_url 'https://raw.githubusercontent.com/uNpluG2023/clash/refs/heads/25.02/Clash-mini.ini'
+	option custom_template_url 'https://raw.githubusercontent.com/uNpluG2023/clashconfig/refs/heads/main/Clash-mini.ini?token=GHSAT0AAAAAAC7J7GCRBEJZ4SA7R74EG2NYZ5X3K5A'
 	option emoji 'false'
 	option skip_cert_verify 'false'
 	option sort 'false'
