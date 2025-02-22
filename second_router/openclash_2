@@ -133,3 +133,16 @@ config openclash 'config'
 	option geoip_custom_url 'https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat'
 	option create_config '0'
 	option append_wan_dns '0'
+
+config rule_providers
+	option enabled '1'
+	option config 'all'
+	option name 'AdBlock'
+	option type 'http'
+	option format 'yaml'
+	option behavior 'domain'
+	option url 'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ads-all.yaml'
+	option interval '86400'
+	option position '0'
+	option group 'REJECT'
+	option other_parameters '# Example:
