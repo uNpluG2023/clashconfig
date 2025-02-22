@@ -146,4 +146,11 @@ config rule_providers
 	option position '0'
 	option group 'REJECT'
 	option other_parameters '# Example:
-
+# Only support YAML, four spaces need to be reserved at the beginning of each line to maintain formatting alignment
+# 示例：
+# 仅支持 YAML, 每行行首需要多保留四个空格以使脚本处理后能够与上方配置保持格式对齐
+# inline Example:
+#    payload:
+#      - '\''.blogger.com'\''
+#      - '\''*.*.microsoft.com'\''
+#      - '\''books.itunes.apple.com'\'''
