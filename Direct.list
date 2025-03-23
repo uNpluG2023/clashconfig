@@ -6,6 +6,7 @@
 DOMAIN-SUFFIX,capcom.com
 DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,googleapis.com
 
 # 域名关键字匹配
 #DOMAIN-KEYWORD,example
