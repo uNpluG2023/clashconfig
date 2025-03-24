@@ -3,13 +3,10 @@
 # MyList
 # 域名后缀匹配
 #DOMAIN-SUFFIX,example.com
-DOMAIN-SUFFIX,capcom.com
-DOMAIN-SUFFIX,azure.com
-DOMAIN-SUFFIX,amazonaws.com
-DOMAIN-SUFFIX,googleapis.com
 
 # 域名关键字匹配
 #DOMAIN-KEYWORD,example
 
 # IP段匹配
 #IP-CIDR,219.146.1.66/32,no-resolve
+SRC-IP-CIDR,10.0.0.30/32
